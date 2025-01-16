@@ -41,7 +41,7 @@ function Addtask() {
        
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 border-2 rounded-md'> 
            <label>Assign to
-             <select name="User" id="" value={add.User} onChange={handlechange}>
+             <select name="User" id="" value={add.User} onChange={handlechange} className='border-2 m-2 p-1 rounded-md'>
              <option value="" disabled>Select a User</option>
                 <option value="User 1">User 1</option>
                 <option value="User 2">User 2</option>
@@ -54,7 +54,7 @@ function Addtask() {
            <label> 
               status
 
-              <select name="Status" id="" value={add.Status} onChange={handlechange}>
+              <select name="Status" id="" value={add.Status} onChange={handlechange} className='border-2 m-2 p-1 rounded-md'>
                 <option value="" disabled>select</option>
                 <option value="Not started">Not started</option>
                 <option value="In progress">In progress</option>
@@ -66,13 +66,13 @@ function Addtask() {
 
        <label >
           Due Date
-            <input type="date" name="Date" value={add.Date} id="" onChange={handlechange}/>
+            <input type="date" name="Date" value={add.Date} id="" onChange={handlechange} className='border-2 m-2 p-1 rounded-md'/>
        </label>
 
 
        <label > 
         Priority
-        <select name="Priority" id="" value={add.Priority} onChange={handlechange}>
+        <select name="Priority" id="" value={add.Priority} onChange={handlechange} className='border-2 m-2 p-1 rounded-md'>
           <option value="" disabled>select</option>
           <option value="Low">Low</option>
           <option value="Medium">Medium</option>
@@ -82,7 +82,7 @@ function Addtask() {
        </label>
    
    <label>Discription
-   <input type="text" name="Comment" id="" value={add.Comment} className='w-[100%] h-[100px] border-2' onChange={handlechange}/>
+   <input type="text" name="Comment" id="" value={add.Comment} className='w-[100%] h-[100px] border-2' onChange={handlechange}  />
    </label>
      
      
@@ -90,7 +90,7 @@ function Addtask() {
         </div>
        
 
-       <button className='border-2 my-3 p-4 w-full sm:w-auto' onClick={handleadd}>submit</button>
+       <button className='border-2 my-3 px-2  py-1 bg-slate-400 text-white rounded-md w-full sm:w-auto' onClick={handleadd} >submit</button>
 
 
     </div>

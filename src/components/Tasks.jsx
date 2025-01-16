@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import TaskBar from './TaskBar'
-import Pagination from './Pagination'
+
 import TaskCard from './TaskCard'
 
 import { Todocontext } from '../context/TodoContextProvider'
@@ -30,7 +30,7 @@ function Tasks() {
       />
     ))}
   </div>
-  <Pagination />
+
 </div>
 
   );
