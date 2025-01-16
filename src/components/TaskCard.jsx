@@ -31,7 +31,7 @@ let {handledelete}=useContext(Todocontext)
       {dropdownOpen && (
         <div className="absolute top-full right-0 bg-slate-600 text-white py-2 px-4 rounded-md shadow-lg z-10">
           <Link to={`/${id}`}>
-            <button className="block w-full text-left py-1 hover:bg-slate-700">
+            <button className="block w-full text-left py-1 hover:bg-slate-700 ">
               Edit
             </button>
           </Link>

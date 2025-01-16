@@ -34,7 +34,7 @@ function EditTask() {
 
   return (
     <div className='mt-[100px] px-4'>
-    <h1 className='text-center text-lg font-bold'>New Taks</h1>
+    <h1 className='text-center text-lg font-bold'>Update Task</h1>
   
     <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 border-2 rounded-md'> 
        <label>Assign to
